@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Livvic:wght@100;200;300;400;500;600;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li,
+a {
+    list-style: none;
+    text-decoration: none;
+}
+
+header {
+    width: 100%;
+    height: 100vh;
+}
+
+.bosh {
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+}
+
+.bosh ul {
+    display: flex;
+    padding: 30px;
+    gap: 20px;
+    color: #000;
+    font-family: 'Livvic', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.bosh span {
+    margin-left: 100px;
+    color: #000;
+    font-size: 28px;
+    font-family: 'Livvic', sans-serif;
+    font-weight: 700;
+}
+
+.bosh-pas {
+    text-align: center;
+    font-family: 'Livvic', sans-serif;
+}
+
+.bosh-pas h2 {
+    color: #000;
+    font-size: 55px;
+    font-family: 'Livvic', sans-serif;
+    font-weight: 700;
+    padding: 50px;
+}
+
+.bosh-pas p {
+    color: #000;
+    font-size: 36px;
+    font-family: 'Livvic', sans-serif;
+    font-weight: 400;
+    padding: 20px;
+}
+
+input {
+    border-radius: 6px;
+    border: 1px solid #C4C4C4;
+    width: 350px;
+    height: 40px;
+    padding: 0 10px;
+    margin-top: 50px;
+    margin-right: 110px;
+    color: #000;
+    font-family: 'Livvic', sans-serif;
+    font-size: 24px;
+}
+
+.btn {
+    position: absolute;
+    width: 150px;
+    height: 40px;
+    border: none;
+    margin-top: 50px;
+    left: 810px;
+    border-radius: 6px;
+    background-color: #6CB6FA;
+    color: #000;
+    text-align: center;
+    font-family: 'Livvic', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.people {
+    width: 100%;
+    height: 100vh;
+
+}
+
+.people h2 {
+    text-align: center;
+    color: #000;
+    font-size: 48px;
+    font-family: 'Livvic', sans-serif;
+    font-weight: 700;
+}
+
+.people h3 {
+    padding: 70px;
+    font-family: 'Livvic', sans-serif;
+    color: #000;
+    font-size: 48px;
+}
+
+.people p {
+    color: #000;
+    font-family: 'Livvic', sans-serif;
+    font-size: 28px;
+    padding: 70px;
+    margin-top: -100px;
+}
+
+.ramka {
+    display: flex;
+    justify-content: space-around;
+    width: 895px;
+    height: 350px;
+    background: #C4C4C4;
+    align-items: center;
+    margin-left: 435px;
+    margin-top: -400px;
+
+}
+
+.ramka h4 {
+    color: #000;
+    font-size: 25px;
+    font-weight: 400;
+    font-family: 'Livvic', sans-serif;
+}
+
+.people2 {
+    width: 100%;
+    height: 100vh;
+    margin-top: -50px;
+
+}
+
+.people2 h2 {
+    text-align: center;
+    color: #000;
+    font-size: 48px;
+    font-family: 'Livvic', sans-serif;
+    font-weight: 700;
+}
+
+.people2 h3 {
+    padding: 70px;
+    font-family: 'Livvic', sans-serif;
+    color: #000;
+    font-size: 40px;
+    margin-left: 950px;
+    font-weight: 400;
+}
+
+.people2 p {
+    color: #000;
+    font-family: 'Livvic', sans-serif;
+    font-size: 28px;
+    padding: 70px;
+    margin-top: -100px;
+    margin-left: 950px;
+
+}
+
+.ramka2 {
+    display: flex;
+    justify-content: space-around;
+    width: 880px;
+    height: 350px;
+    background: #C4C4C4;
+    align-items: center;
+    margin-left: 60px;
+    margin-top: -400px;
+
+}
+
+.ramka2 h4 {
+    color: #000;
+    font-size: 25px;
+    font-weight: 400;
+    font-family: 'Livvic', sans-serif;
+}
+
+.people3 {
+    width: 100%;
+    height: 100vh;
+    margin-top: -150px;
+
+}
+
+.people3 h2 {
+    text-align: center;
+    color: #000;
+    font-size: 48px;
+    font-family: 'Livvic', sans-serif;
+    font-weight: 700;
+}
+
+.people3 h3 {
+    padding: 70px;
+    font-family: 'Livvic', sans-serif;
+    color: #000;
+    font-size: 48px;
+}
+
+.people3 p {
+    color: #000;
+    font-family: 'Livvic', sans-serif;
+    font-size: 28px;
+    padding: 70px;
+    margin-top: -100px;
+}
+
+.ramka3 {
+    display: flex;
+    justify-content: space-around;
+    width: 895px;
+    height: 350px;
+    background: #C4C4C4;
+    align-items: center;
+    margin-left: 435px;
+    margin-top: -400px;
+
+}
+
+.ramka3 h4 {
+    color: #000;
+    font-size: 25px;
+    font-weight: 400;
+    font-family: 'Livvic', sans-serif;
+}
+
+.ohrigi {
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+}
+
+.ohrigi h2 {
+    color: #000;
+    text-align: center;
+    font-family: 'Livvic', sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+}
+.ohrigi img{
+    margin-top: 100px;
+}
